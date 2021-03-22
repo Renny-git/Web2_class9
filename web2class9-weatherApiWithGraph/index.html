@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<title>7-Day Weather Forecast for Rio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--// Based on dribbble shot https://dribbble.com/shots/2097042-Widget-Weather by kylor
+    icons gottens from codepen by Josh Bader: https://codepen.io/joshbader/pen/EjXgqr-->
+<div class= header><h1>7-Day Weather Forecast</h1>
+<h1><label for="city">Choose a City:</label>
+<select name="cities" id="cities">
+  <option value="Rio">Rio</option>
+  <option value="NYC">NYC</option>
+  <option value="Taipei">Taipei</option>
+  <option value="Beijing">Beijing</option>
+</select></h1>
+</div>
+<div class="wrapper">
+    <div class="current day">
+    <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice">-</div>  
+    </div>
+
+    <div class="forecast day">
+      <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice"></div>  
+    </div>
+
+    <div class="forecast day">
+      <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice">-</div>  
+    </div>
+
+    <div class="forecast day">
+      <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice"></div>  
+    </div>
+
+    <div class="forecast day">
+      <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div> 
+    <div class="advice"></div> 
+    </div>
+
+    <div class="forecast day">
+      <div class="weekday">-</div>
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice"></div> 
+    </div>
+
+    <div class="forecast day">Sunday 
+    <div class="temperature">-</div>
+    <div class="icon"></div>
+    <div class="advice"></div> 
+    </div>
+</div>
+    <script src="fetch.js"></script>
+<div id="viz"></div>
+    <script src="d3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
